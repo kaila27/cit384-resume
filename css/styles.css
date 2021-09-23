@@ -1,0 +1,146 @@
+/* Color Palette
+#BFD1E5 - color 1: light blue
+#FE938C - color 2: salmon pink
+#A8C686 - color 3: light green
+#C89BEA - color 5: light purple 
+*/
+
+/* Global styles 
+------------------------------------*/
+body {
+  margin: 0;
+}
+
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+}
+
+html {
+  box-sizing: border-box;
+  /* text-align: center; */
+}
+
+*,
+:before,
+:after {
+  box-sizing: inherit;
+}
+
+p {
+  font-family: "Noto Serif", serif;
+}
+
+p1 {
+  font-family: "Noto Serif", serif;
+  font-size: 20px;
+}
+
+p2 {
+  font-family: "Noto Serif", serif;
+  font-size: 10px;
+}
+
+/* Header & Footer 
+------------------------------------*/
+header {
+  background-color: #C89BEA; /* light purple */
+  font-family: "Dancing Script", cursive;
+}
+
+nav {
+  position: fixed;
+  background-color: #F4C8F0;
+  text-align: center;
+  width: 100%;
+  font-family: "Noto Serif", serif;
+}
+
+nav a {
+  padding-right: 2%;
+}
+
+.display a:hover {
+  background-color: #C89BEA;
+  color: black;
+}
+
+.profile-img {
+  /* width: 300px;
+  margin-right: 30px;
+  float: left; */
+  border-radius: 50%;
+}
+
+.column-narrow {
+  width: 30%;
+  float: left;
+  padding-right: 3%;
+  min-height: 175px;
+}
+
+.column-wide {
+  width: 70%;
+  float: right;
+  min-height: 225px;
+}
+
+h1 {
+  font-size: 45px;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Redressed", cursive;
+  font-size: 35px;
+  margin-top: 0;
+  margin: 0;
+}
+
+h3 {
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+}
+
+h4 {
+  font-family: "Redressed", cursive;
+  font-size: 35px;
+  margin-top: 0;
+  margin: 0;
+}
+
+footer {
+  background-color: #FE938C; /* salmon pink */
+  text-align: center;
+}
+
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+  font-family: "Noto Serif", serif;
+}
+
+/* Work Experience
+------------------------------------*/
+.work {
+  background-color: #BFD1E5; /* light blue */
+}
+
+/* Education
+------------------------------------*/
+.selector {
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(199, 21, 33, 0.5)),
+    url("https://cdn.glitch.com/79439ae5-a8ba-48a3-8e27-a2516c8c07c6%2FScreen%20Shot%202021-03-11%20at%203.53.22%20PM.png?v=1615506826722");
+}
+
+.layer {
+  background: rgba(0, 119, 181, 0.5);
+}
+
+.education {
+  /* background-color: #A8C686; */ /* light green */
+  text-align: center;
+}
